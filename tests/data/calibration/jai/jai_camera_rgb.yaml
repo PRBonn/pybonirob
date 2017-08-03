@@ -1,0 +1,20 @@
+image_width: 1296
+image_height: 966
+camera_name: driver_rgb
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [2150.03686, 0.000000, 649.2291, 0.000000, 2150.03686, 480.680634, 0.000000, 0.000000, 1.000000]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [0.0, 0.0, 0.0, 0.0, 0.0]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [2150.03686, 0.000000, 649.2291, 0.000000, 0.000000, 2150.03686, 480.680634, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000]
